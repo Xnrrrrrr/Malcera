@@ -23,6 +23,7 @@ const createMount = async (req, res) => {
     res.status(StatusCodes.CREATED).json({ mount });
 };
 
+// why no description steve? underneath
 // @desc    Get all Mounts
 // @route   GET /api/v1/mount
 // @access  Private (Admin)

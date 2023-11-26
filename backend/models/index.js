@@ -6,6 +6,11 @@ const Item = require('./Item.js');
 const Npc = require('./Npc.js');
 const Book = require('./Book.js');
 const Mount = require('./Mount.js')
+const BlackMarket = require('./BlackMarket.js')
+const DemonicContract = require('./DemonicContract.js')
+const Fauna = require('./Fauna.js')
+const Flora = require('./Flora.js')
+const ForbiddenLibrary = require('./ForbiddenLibrary.js')
 
 module.exports = {
     User,
@@ -15,5 +20,10 @@ module.exports = {
     Item,
     Npc,
     Book,
-    Mount
+    Mount,
+    BlackMarket,
+    DemonicContract,
+    Fauna,
+    Flora,
+    ForbiddenLibrary,
 };
