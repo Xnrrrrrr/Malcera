@@ -34,10 +34,6 @@ const NaturalDisasterSchema = new mongoose.Schema({
     required: true,
   },
   affectedAreas: [String],
-  impactOnPlayers: {
-    type: String,
-    required: true,
-  },
 });
 
 const NaturalDisaster = mongoose.model('NaturalDisaster', NaturalDisasterSchema);

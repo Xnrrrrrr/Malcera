@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Define the Mount schema
-const mountSchema = new mongoose.Schema({
+const mountSchema = new mongoose.Schema({ 
   name: {
     type: String,
     required: true,
